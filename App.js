@@ -74,9 +74,7 @@ const App: () => Node = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-            <Text style={styles.highlight}>Code Push</Text> Changes are
-            Reflected. Now theres no need to push updated apk. Changes are beign
-            reflected. Added CodePushHoc. Testing on iOS and AOS
+            <Text style={styles.highlight}>Code Push</Text> I have applied CI/CD
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
