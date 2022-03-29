@@ -75,6 +75,7 @@ const App: () => Node = () => {
           }}>
           <Section title="Step One">
             <Text style={styles.highlight}>Code Push</Text> I have applied CI/CD
+            in separate branch
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
